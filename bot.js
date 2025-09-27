@@ -1,5 +1,5 @@
 // === IMPORTS ===
-const { Connection, Keypair, PublicKey } = require("@solana/web3.js");
+import { Connection, Keypair, PublicKey } from "@solana/web3.js";
 const TelegramBot = require("node-telegram-bot-api");
 
 // === ENV VARIABLES ===
