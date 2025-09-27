@@ -2,17 +2,17 @@
   "type": "module",
   "name": "wgmi-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
+  "description": "WAGMI Solana Oracle Telegram Bot",
+  "main": "src/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@solana/web3.js": "^1.75.0",
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.0",
     "node-telegram-bot-api": "^0.66.0"
   },
   "engines": {
