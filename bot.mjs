@@ -1,4 +1,4 @@
-import { Connection, Keypair, PublicKey } from "@solana/web3.js";
+const { Connection, Keypair, PublicKey } = require("@solana/web3.js");
 import TelegramBot from "node-telegram-bot-api";
 
 // === ENV VARIABLES ===
